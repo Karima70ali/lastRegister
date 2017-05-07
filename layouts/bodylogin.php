@@ -17,7 +17,7 @@
 		   <div class="lable-2">
 
 		   <!-- onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'your@email.com ';}" -->
-		    <input type="text" class="text" value="<?php echo htmlentities($username); ?>" placeholder=" User Name" name="username">
+		    <input type="text" class="text" value="<?php echo htmlentities($username); ?>" placeholder=" first Name" name="username">
 		        
 		     <input type="password" class="text" value="<?php echo htmlentities($password); ?>" placeholder=" Password" name="password">
 		       
