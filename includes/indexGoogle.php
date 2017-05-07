@@ -75,7 +75,7 @@ if ($gClient->getAccessToken()) {
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Login with Google using PHP by CodexWorld</title>
+<title>welcome to my registration app</title>
 <style type="text/css">
 h1{font-family:Arial, Helvetica, sans-serif;color:#999999;}
 </style>
