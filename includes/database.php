@@ -10,7 +10,7 @@ class MYSQLDatabase{
 		$this->open_connection();
 	}
 public function open_connection(){
-	$this->connection=mysqli_connect(DB_SERVER,DB_USER,DB_PASS,DB_NAME);
+	$this->connection=mysqli_connect(DB_SERVER,DB_NAME);
 	if(mysqli_connect_errno()){
 		die("database connection failed:".mysqli_connect_error()."(" .mysqli_connect_errno().")"
 		
